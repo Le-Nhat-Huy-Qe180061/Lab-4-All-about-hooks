@@ -1,0 +1,36 @@
+.carousel-img {
+    height: 500px;
+    object-fit: cover;
+    filter: brightness(0.9);
+    transition: transform 0.5s ease-in-out;
+
+    @media (max-width: 768px) {
+        height: 300px;
+    }
+}
+
+.carousel-caption-custom {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: left;
+
+    h3 {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    @media (max-width: 768px) {
+        h3 {
+            font-size: 1.4rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+    }
+}
